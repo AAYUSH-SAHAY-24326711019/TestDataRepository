@@ -14,11 +14,11 @@ public class Main {
 
         try {
             // Run 'git add .'
-            runCommand("git add .");
+            
 
             // Append data to dataset.csv
             appendToCSV(data);
-
+            runCommand("git add .");
             // Get current date and time
             String dateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
 
